@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Babs (Barbara) Mazzotti — Consulenza e formazione su studi di genere</title>
+<meta name="description" content="Consulenə e formatore/formatrice in studi di genere, educazione affettiva e sessuale e politiche LGBTQIAP+. Attivismo, ricerca e progettazione culturale.">
+<meta property="og:title" content="Babs (Barbara) Mazzotti — Consulenza di genere">
+<meta property="og:description" content="Educazione di genere, affettiva e sessuale · Advocacy · Policy inclusive · Formazione docenti · Gender mainstreaming">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#731a2b">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#ffffff; --fg:#141418; --muted:#5c606a; --card:#ffffff; --line:#e9e9ef; --accent:#731a2b; --accent-2:#b31d3f;
+  }
+  [data-theme="dark"]{
+    --bg:#0e0e10; --fg:#f5f6f7; --muted:#b8bcc4; --card:#16161a; --line:#26262e; --accent:#d24767; --accent-2:#ff7a95;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .container{max-width:1060px;margin:0 auto;padding:22px}
+  header{position:sticky;top:0;background:color-mix(in oklab, var(--bg) 92%, transparent);backdrop-filter:saturate(120%) blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent-2));color:white;font-weight:800}
+  .brand h1{font-size:18px;margin:0}
+  .brand p{margin:0;color:var(--muted);font-size:12px}
+  .menu{display:flex;gap:12px;flex-wrap:wrap}
+  .menu a{padding:8px 10px;border-radius:10px;border:1px solid transparent}
+  .menu a:hover{border-color:var(--line);background:color-mix(in srgb, var(--accent) 6%, var(--card))}
+  .switch{border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer;color:var(--muted);}
+  .hero{padding:54px 0 28px;border-bottom:1px solid var(--line)}
+  .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}
+  .badge{display:inline-block;padding:6px 10px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--muted)}
+  h2{font-size:28px;margin:14px 0 8px}
+  p.lead{color:var(--muted);font-size:16px;line-height:1.6}
+  .cta{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:white}
+  .btn.ghost{background:transparent}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .grid{display:grid;gap:16px}
+  .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+  .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  .kicker{font-size:12px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+  ul.clean{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  .timeline{position:relative}
+  .timeline::before{content:\"\";position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--line)}
+  .tl-item{position:relative;padding-left:34px;margin:18px 0}
+  .dot{position:absolute;left:3px;top:4px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent)}
+  small,.muted{color:var(--muted)}
+  .tags .tag{display:inline-block;padding:4px 8px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:var(--muted);margin:2px 6px 0 0}
+  footer{padding:36px 0;color:var(--muted)}
+  @media (max-width:900px){.hero-grid,.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Menu principale">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">B</div>
+          <div>
+            <h1>Babs (Barbara) Mazzotti</h1>
+            <p>Consulenə e formatore/formatrice in studi di genere, educazione affettiva e politiche LGBTQIAP+</p>
+          </div>
+        </div>
+        <div class="menu">
+          <a href="#about">Chi sono</a>
+          <a href="#services">Servizi</a>
+          <a href="#work">Esperienze</a>
+          <a href="#pubs">Pubblicazioni</a>
+          <a href="#contact">Contatti</a>
+          <button class="switch" id="toggleTheme" aria-label="Cambia tema">☾/☀</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container hero">
+      <div class="hero-grid">
+        <div>
+          <span class="badge">Disponibile per consulenze · Italia & UE</span>
+          <h2>Politiche inclusive, educazione di genere e progettazione culturale con approccio intersezionale.</h2>
+          <p class="lead">Più di quindici anni tra scuola, università, collettivi e istituzioni. Ricerca, advocacy e formazione su diritti LGBTQIAP+, educazione affettiva e sessuale, gender mainstreaming, community building.</p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:babs.mazzotti@gmail.com?subject=Richiesta%20consulenza%20-%20Babs%20Mazzotti">Scrivimi per una consulenza</a>
+            <a class="btn ghost" href="#services">Vedi servizi</a>
+            <a class="btn" href="#cv">CV completo</a>
+          </div>
+          <div class="tags" style="margin-top:10px">
+            <span class="tag">Educazione affettiva e sessuale</span>
+            <span class="tag">Formazione docenti</span>
+            <span class="tag">Policy e protocolli</span>
+            <span class="tag">Gender mainstreaming</span>
+            <span class="tag">Public speaking</span>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="kicker">Contatti rapidi</div>
+            <ul class="clean">
+              <li>📍 48018 Faenza (RA), Italia</li>
+              <li>📞 <a href="tel:+393381057693">+39 338 1057693</a></li>
+              <li>✉️ <a href="mailto:babs.mazzotti@gmail.com">babs.mazzotti@gmail.com</a></li>
+            </ul>
+            <hr style="border:0;border-top:1px solid var(--line);margin:14px 0">
+            <div class="kicker">Scarica CV</div>
+            <ul class="clean">
+              <li>📄 <a href="#" aria-disabled="true">PDF (inserisci link tuo)</a></li>
+              <li>📝 <a href="#" aria-disabled="true">DOCX (inserisci link tuo)</a></li>
+            </ul>
+            <p class="muted" style="margin-top:8px">Sostituisci i link con i tuoi (Google Drive, Dropbox o GitHub).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="kicker">Chi sono</div>
+        <div class="grid cols-2">
+          <div class="card">
+            <p class="lead">Consulenə, formatore/formatrice e ricercatorə indipendente in studi di genere. Lavoro con scuole, Comuni, festival, biblioteche, università e ONG per progettare politiche e percorsi formativi inclusivi.</p>
+            <p>Approccio partecipativo e decoloniale; attenzione a linguaggi, accessibilità e benessere delle comunità educative. Esperienza in conduzione di tavoli, scrittura di policy, facilitazione e comunicazione pubblica.</p>
+          </div>
+          <div class="card">
+            <div class="kicker">Formazione</div>
+            <ul class="clean">
+              <li><b>MA in Gender Studies & International Relations</b> — CEU (Budapest) & University of Łódź — voto A+</li>
+              <li><b>Master in Filosofia Politica</b> — Università di Bologna — 110/110 e lode</li>
+              <li>Specializzazioni: Storia delle Donne e Studi di Genere (SIS); Donne, Politica e Istituzioni (Unibo); Filosofia Femminista (IAPH)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="kicker">Servizi</div>
+        <div class="grid cols-3">
+          <div class="card">
+            <h3>Consulenza & policy</h3>
+            <p>Gender mainstreaming, audit di linguaggio, protocolli anti‑discriminazione, linee guida inclusive, piani formativi e culturali.</p>
+          </div>
+          <div class="card">
+            <h3>Formazione</h3>
+            <p>Educazione di genere, affettiva e sessuale; formazione docenti e operatorə; prevenzione molestie; percorsi per scuole e enti.</p>
+          </div>
+          <div class="card">
+            <h3>Facilitazione & eventi</h3>
+            <p>Moderazioni, conduzione tavoli, progettazione partecipata; talk, laboratori e curatele per festival, biblioteche e musei.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <div class="kicker">Esperienze</div>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Selezione recente (2023–2025)</h3>
+            <div class="timeline">
+              <div class="tl-item"><span class="dot"></span>
+                <b>Comune di Lugo — “Genere e cittadinanza” (2025)</b><br/>
+                <small>Relazionə su politiche inclusive.</small>
+              </div>
+              <div class="tl-item"><span class="dot"></span>
+                <b>Gruppo Riflessi, Faenza (2025)</b><br/>
+                <small>Dialogo pubblico su maschilità e pratiche di ascolto.</small>
+              </div>
+              <div class="tl-item"><span class="dot"></span>
+                <b>Sorelle Festival — Faenza (2023–2025)</b><br/>
+                <small>Relatorə; coordinamento laboratorio; talk “Il transfemminismo dalle origini a oggi”.</small>
+              </div>
+              <div class="tl-item"><span class="dot"></span>
+                <b>Faenza per la Palestina (2025)</b><br/>
+                <small>Reading 30/03 e 31/05 — curatoria e performance.</small>
+              </div>
+              <div class="tl-item"><span class="dot"></span>
+                <b>Gruppo Elettrogeno Teatro / “I Fiori Blu” — Bologna (2023)</b><br/>
+                <small>Relatorə a “In dialogo con Le Metamorfosi”.</small>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Attivismo & reti (2006–oggi)</h3>
+            <ul class="clean">
+              <li><b>Stati Genderali LGBTQIAP+ & Disability</b> — co‑fondatorə e coordinamento (dal 2021)</li>
+              <li><b>Laboratorio Smaschieramenti</b> — advocacy, eventi e formazione (dal 2013)</li>
+              <li><b>Consultoria Autogestita TFQ</b> — salute, piacere, autodeterminazione; autoinchiesta <i>SuiGeneris</i> (dal 2016)</li>
+              <li><b>Autoinchiesta “Altre Maschilità”</b> — co‑organizza (Bologna, 2022)</li>
+              <li><b>KLIT & RQAC — Budapest</b> — Slutwalk 2012; workshop e reti transnazionali (2011–2016)</li>
+              <li><b>Atlantide — Bologna</b> — collettivi queer e pratiche artistiche politiche (2008–2014)</li>
+              <li><b>FiglieFemmine / Rete delle Donne — Bologna</b> — seminari e rassegne (2006–2011)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pubs">
+      <div class="container">
+        <div class="kicker">Pubblicazioni & media</div>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Selezione pubblicazioni</h3>
+            <ul class="clean">
+              <li><b>Mazzotti; Fabini; Rossetti</b> — <i>At the intersection of the radical feminist and abolitionist movements</i>. <a href="#" aria-disabled="true">Link</a></li>
+              <li><i>Gendering “bare life”: human rights, refugees and thanatopolitics</i>. <a href="#" aria-disabled="true">Link</a></li>
+              <li><i>Peripheral resistance to urban neoliberal competition: the borderland of Susa Valley</i>. <a href="#" aria-disabled="true">Link</a></li>
+              <li><i>Budapest: Report of the Alternative Conference – Feminism and LGBTQ in Hungary</i>. <a href="#" aria-disabled="true">Link</a></li>
+              <li><i>Tesi MA (CEU)</i> — <i>Fertility Politics and Postfordist System in Italy…</i> <a href="#" aria-disabled="true">Link</a></li>
+            </ul>
+            <p class="muted" style="margin-top:6px">Sostituisci “Link” con i tuoi URL (ResearchGate, Academia, PDF, ecc.).</p>
+          </div>
+          <div class="card">
+            <h3>Interviste & collaborazioni</h3>
+            <p class="muted">Terranuova · DinamoPress · El Salto Diario · La Falla (Cassero) · Radio Sonar · Biblioteca delle Donne · Liberazione Queer Messina</p>
+            <div class="kicker">Competenze</div>
+            <p>Educazione di genere, <b>affettiva e sessuale</b> · Gender mainstreaming · Advocacy e policy writing · Facilitazione · Comunicazione pubblica · Ricerca qualitativa · Formazione docenti · Project design · Community building · Revisione critica inclusiva</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv">
+      <div class="container">
+        <div class="kicker">CV completo (testo)</div>
+        <div class="card">
+          <p><b>Mail:</b> babs.mazzotti@gmail.com — <b>Telefono:</b> +39 338 1057693</p>
+          <p><b>Profilo:</b> Consulenə, formatore/formatrice e ricercatorə indipendente in studi di genere, educazione affettiva e sessuale, femminismi intersezionali e politiche LGBTQIAP+. Attivistə e docentə con oltre quindici anni di esperienza...</p>
+          <p><b>Esperienze 2025–2006:</b> Comune di Lugo (2025); Riflessi Faenza (2025); Sorelle Festival (2023–2025); Faenza per la Palestina (2025); “I Fiori Blu” (2023); MACBA (2020); Consultoria TFQ (dal 2016); Smaschieramenti (dal 2013); KLIT & RQAC (2011–2016); Atlantide (2008–2014); FiglieFemmine/Rete delle Donne (2006–2011).</p>
+          <p><b>Formazione:</b> MA CEU (A+); Master in Filosofia Politica (Unibo, 110/110 e lode); specializzazioni SIS/Unibo/IAPH.</p>
+          <p><b>Lingue:</b> IT C2 (madrelingua), EN C2, ES B2.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="kicker">Contatti</div>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Parliamone</h3>
+            <p>Scrivimi due righe sul tuo contesto (scuola, Comune, festival, ONG) e sull’obiettivo: formazione, consulenza, policy, laboratorio o moderazione.</p>
+            <p>✉️ <a href="mailto:babs.mazzotti@gmail.com">babs.mazzotti@gmail.com</a><br/>📞 <a href="tel:+393381057693">+39 338 1057693</a></p>
+          </div>
+          <div class="card">
+            <h3>Accessibilità</h3>
+            <p>Uso linguaggi inclusivi e modalità accessibili (slide ad alto contrasto, documenti testuali, microfono, sedute brevi + pause). Adatto contenuti a pubblici misti e multilingue.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="y"></span> Babs (Barbara) Mazzotti — Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+<script>
+  // theme toggle + remember
+  const root = document.documentElement;
+  const saved = localStorage.getItem('theme');
+  if(saved==='dark'){ root.setAttribute('data-theme','dark'); }
+  document.getElementById('toggleTheme').onclick = () => {
+    const isDark = root.getAttribute('data-theme')==='dark';
+    root.setAttribute('data-theme', isDark ? '' : 'dark');
+    localStorage.setItem('theme', isDark ? '' : 'dark');
+  };
+  // year
+  document.getElementById('y').textContent = new Date().getFullYear();
+  // smooth scroll
+  document.querySelectorAll('a[href^=\"#\"]').forEach(a=>{
+    a.addEventListener('click',e=>{ const id=a.getAttribute('href'); if(id.length>1){ e.preventDefault(); document.querySelector(id).scrollIntoView({behavior:'smooth'}); } })
+  });
+</script>
+</body>
+</html>
